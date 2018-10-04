@@ -1,0 +1,6 @@
+1. put the file into src/main/resources
+2. change name to cxf.xml (only the name can be loaded by camel cxf)
+3. commnent ssl() which set SSL at jvm level
+
+Note: it works but "resources" below is hardcode and can't use ${my.resources.dir}
+	file="resources/${myapp.jks.filename}
